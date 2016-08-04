@@ -1,12 +1,15 @@
+#List of Fruit stock
 shopping_list = ["banana", "orange", "apple"]
 
+#Fruit stock/quantity as a Dictionary
 stock = {
     "banana": 6,
     "apple": 0,
     "orange": 32,
     "pear": 15
 }
-    
+
+#Prices of each Fruit    
 prices = {
     "banana": 4,
     "apple": 2,
@@ -14,7 +17,7 @@ prices = {
     "pear": 3
 }
 
-# Write your code below!
+#Function to check stock count
 def compute_bill(food):
     total = 0
     for item in food:
